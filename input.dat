@@ -1,0 +1,82 @@
+// analysis parameters
+// decMin - minimum decade for frequency response
+-2
+// decMax - maximum decade for frequenccy response
+4
+// wnpts - number of points at which frequency response is evaluated
+100
+// timeStep - time step for all time-domain analyses [s]
+5.0e-04
+// tEnd - end time for all time-domain analyses [s]
+100.0
+// pulseStart - start time for disturbance pulse (deterministic and stochastic) [s]
+5.0
+// pulseLength - time duration of disturbance pulse (deterministic and stochastic) [s]
+20.0
+// ws - deterministic disturbance levels
+2.985e+00     3.000e-04     3.000e-05     0.0e+00     0.0e+00     0.0e+00     0.0e+00
+/*
+// aircraft model parameters
+// aircraft_S
+2170.0
+// aircraft_CBAR
+17.5
+// aircraft_MASS
+5e3
+// aircraft_IYY
+4.1e6
+// aircraft_TSTAT
+27215.821
+// aircraft_DTDV
+-38.0
+// aircraft_ZE
+2.0
+// aircraft_CDCLS
+0.042
+// aircraft_CLA
+0.085
+// aircraft_CMA
+-0.022
+// aircraft_CMDE
+-0.016
+// aircraft_CMQ
+-16.0
+// aircraft_CMADOT
+-6.0
+// aircraft_CLADOT
+0.0
+// aircraft_RTOD
+57.29578
+// aircraft_GD
+32.17
+// aircraft_CLO_CLEAN
+0.20
+// aircraft_CLO_LAND
+1.0
+// aircraft_CDO_CLEAN
+0.016
+// aircraft_CDO_LAND
+0.08
+// aircraft_CMO_CLEAN
+0.05
+// aircraft_CMO_LAND
+-0.20
+// aircraft_DCDG_CLEAN
+0.0
+// aircraft_DCDG_LAND
+0.02
+// aircraft_DCMG_CLEAN
+0.0
+// aircraft_DCMG_LAND
+-0.05 
+// eta
+0.85
+// PowerDensity
+6576  
+// fprop
+0.076338
+// Jprop
+0.02658
+// omega0
+209.4
+/*
