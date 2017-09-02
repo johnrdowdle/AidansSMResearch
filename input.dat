@@ -5,10 +5,12 @@
 4
 // wnpts - number of points at which frequency response is evaluated
 100
-// timeStep - time step for all time-domain analyses [s]
-5.0e-04
+// tStart - start time for all time-domain analyses [s]
+0.0
 // tEnd - end time for all time-domain analyses [s]
 100.0
+// timeStep - time step for all time-domain analyses [s]
+1.0e-01
 // pulseStart - start time for disturbance pulse (deterministic and stochastic) [s]
 5.0
 // pulseLength - time duration of disturbance pulse (deterministic and stochastic) [s]
